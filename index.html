@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Postr: post, don't scroll</title>
+  <meta name="description" content="A browser extension for creators. YouTube, TikTok and Instagram feeds stay shut; upload, studio and your own profile stay open. Free for YouTube, $19 once for all three.">
+  <meta property="og:title" content="Postr: post, don't scroll">
+  <meta property="og:description" content="The feed-free way to publish on YouTube, TikTok and Instagram.">
+  <meta property="og:image" content="https://vizonaryproductions.github.io/postr-site/assets/og.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/icon32.png">
+  <link rel="stylesheet" href="assets/site.css">
+</head>
+<body>
+  <div class="wrap">
+    <header class="nav">
+      <a class="brand" href="./"><img src="assets/icon128.png" alt="">Postr</a>
+      <nav>
+        <a class="hide-sm" href="#how">How it works</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#faq">FAQ</a>
+      </nav>
+    </header>
+
+    <section class="hero" style="padding-top:32px">
+      <div>
+        <h1>Post.<br><em>Don't scroll.</em></h1>
+        <p class="lead muted">YouTube, TikTok and Instagram feeds stay shut. Upload, studio and your own profile stay one click away.</p>
+        <div class="ctas">
+          <!-- LAUNCH: replace href with the Chrome Web Store listing URL and drop aria-disabled. -->
+          <a class="btn primary" id="install" href="#" aria-disabled="true">Add to Chrome · coming soon</a>
+          <a class="btn" href="#pricing">See pricing</a>
+        </div>
+        <p class="note muted">Works in Chrome, Brave, Arc and Edge. Free for YouTube.</p>
+      </div>
+      <img class="shot" src="assets/blocked.png" alt="Postr's block page: 'You came here to post.' with buttons to upload to TikTok or open TikTok Studio">
+    </section>
+  </div>
+
+  <section class="band" id="how">
+    <div class="wrap">
+      <p class="eyebrow">How it works</p>
+      <h2>Go to post. Actually post.</h2>
+      <p class="sub muted">You open YouTube to upload. Forty minutes later you've watched twelve Shorts and posted nothing. Postr takes the feed out of the way.</p>
+      <div class="steps">
+        <div class="step"><span class="n">01</span><b>The feed is shut</b><p class="muted">Home, Shorts, Reels, For You and Explore show a calm block page instead of the scroll.</p></div>
+        <div class="step"><span class="n">02</span><b>Publishing stays open</b><p class="muted">Studio, upload, your own profile and account settings all work exactly as usual.</p></div>
+        <div class="step"><span class="n">03</span><b>One click to post</b><p class="muted">The toolbar button jumps straight to each platform's upload page, skipping the feed.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <p class="eyebrow">What's open, what's shut</p>
+      <h2>Only the pages you post from.</h2>
+      <table class="table">
+        <thead><tr><th>Platform</th><th>Stays open</th><th>Stays shut</th></tr></thead>
+        <tbody>
+          <tr><td>YouTube</td><td>Studio, upload, your own channel and Posts tab</td><td>Home, recommended videos, Shorts, search, subscriptions, other channels</td></tr>
+          <tr><td>TikTok</td><td>TikTok Studio, upload, your own profile and videos</td><td>For You, Explore, Following, Live, search, other profiles</td></tr>
+          <tr><td>Instagram</td><td>Your profile and the Create button, your stories, settings</td><td>Home feed, Explore, Reels, other profiles</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="band">
+    <div class="wrap feature">
+      <div>
+        <p class="eyebrow">Passes</p>
+        <h2>Need the feed? Mean it.</h2>
+        <p class="sub muted">Sometimes you do need to check a trend. A pass makes you wait 30 seconds and type a short sentence, then opens the feed for 10 minutes and closes it again. Two a day. Or turn on strict mode and skip passes entirely.</p>
+      </div>
+      <img class="shot" src="assets/pass.png" alt="A pass counting down before it unlocks the Instagram feed">
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap">
+      <p class="eyebrow">Pricing</p>
+      <h2>Pay once. Keep it.</h2>
+      <p class="sub muted">No account and no subscription. Postr runs entirely in your browser, so it never costs us anything to keep it running for you.</p>
+      <div class="plans">
+        <div class="plan">
+          <h3>Free</h3>
+          <div class="price">$0 <small>forever</small></div>
+          <ul>
+            <li>YouTube feed off, Studio and upload open</li>
+            <li>2 passes a day</li>
+            <li>Block page with one-click upload buttons</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <h3>Postr Pro</h3>
+          <div class="price">$19 <small>once</small></div>
+          <span class="launch">Launch price $12 for the first 200 creators</span>
+          <ul>
+            <li>Everything in Free</li>
+            <li>TikTok and Instagram feeds off too</li>
+            <li>Strict mode: no passes at all</li>
+            <li>Your own pass length, wait time and daily limit</li>
+            <li>Every future update included</li>
+          </ul>
+          <p class="muted" style="font-size:14px">Install Postr, then choose Get Pro in its settings.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="band" id="faq">
+    <div class="wrap">
+      <p class="eyebrow">FAQ</p>
+      <h2>Questions</h2>
+      <div class="faq">
+        <details><summary>Does Postr see my browsing?</summary><p>It checks the address of pages on YouTube, TikTok and Instagram to decide whether to block them. That check happens inside your browser and nothing is sent anywhere. No analytics, no ads. See the <a href="privacy.html">privacy policy</a>.</p></details>
+        <details><summary>Can I still watch my own videos and read comments?</summary><p>Studio covers your videos, analytics and comments on YouTube and TikTok. On Instagram you can open your own posts from your profile grid. Anything that leads to someone else's content stays shut.</p></details>
+        <details><summary>What if I really need the feed?</summary><p>Take a pass from the block page. You wait, type a sentence, and get 10 minutes, after which the feed closes itself. Pro lets you change those numbers or switch passes off.</p></details>
+        <details><summary>Does it work on my phone or in Safari?</summary><p>Not yet. Postr works in Chromium browsers on desktop: Chrome, Brave, Arc and Edge. A Safari version is planned.</p></details>
+        <details><summary>Can't I just turn it off?</summary><p>Yes, from your browser's extensions page. Postr is a speed bump, not a cage. For most people that pause is enough to remember why they opened the site.</p></details>
+        <details><summary>How do refunds work?</summary><p>Pro is sold by Polar, our merchant of record, who handles payment, receipts and tax. If Pro isn't for you, ask for a refund within 14 days and you'll get one.</p></details>
+        <details><summary>Is this made by YouTube, TikTok or Instagram?</summary><p>No. Postr is an independent tool and isn't affiliated with or endorsed by Google, ByteDance or Meta.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <span class="muted">© 2026 Vizonary Productions</span>
+      <nav>
+        <a href="privacy.html">Privacy</a>
+        <a href="https://github.com/vizonaryproductions/postr-site/issues">Support</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>
